@@ -15,3 +15,9 @@ script:
 - sudo ln -s /usr/bin/g++-6 /usr/local/bin/g++
 - export CC=/usr/bin/gcc-6
 - export CXX=/usr/bin/g++-6
+- bash ./create-deploy-files.sh
+deploy:
+  provider: releases
+  api_key: "28ebfda42a8a5e5d63547cc3697253729529edb6"
+  file: "quicksort"
+  skip_cleanup: true
