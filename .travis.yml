@@ -19,5 +19,5 @@ script:
 deploy:
   provider: releases
   api_key: "28ebfda42a8a5e5d63547cc3697253729529edb6"
-  file: "quicksort"
+  file: "build/quicksort"
   skip_cleanup: true
