@@ -18,6 +18,7 @@ script:
 - bash ./create-deploy-files.sh
 deploy:
   provider: releases
-  api_key: "28ebfda42a8a5e5d63547cc3697253729529edb6"
+  api_key:
+    secure: "MmQ8Af/iLl0KrqddrP7WP88cVVI680jfuwQBmy5IOvZPJAMbBca5pbl0s/yio3COxMIHPOf8uDpdRPOhbhCepH9jqYxo3l6QM0vorGRGVWSuAWwPUB8C7aHuKSLTLB419Twt50OaATT3b5HBVSQbXx+qpuliYAC/k/zDyxPSZoZm/sOEPZWLrpF1dqYy+6UHq2ruAbnagTgEM6LuF+fZBIb/QA/Sp42mM+xLII5qxcFG9GrXWLdIEErRnwnmUH/jCUps1PuTzMJfRyuwKops6AYU+x5fRCMjo5fXdW+o4X8kj23hysKgxPyqKiag8E3Z7wvxW8R6TkY/NZ7UTktJUiJ00oIK1Dn3Nf9rkLJIcdKxBqe1aaxddT8TpEPs/BhrFppZeYqrkXpJizGgK7XlPJXtF3DzKNQ68M6g+pTAk4sf76OKhQ/CzuRhhheQIr0t9AtY5FmR7XFIQ8s1KiJnHcrj7qEHnXF2bI/i4DsuFMF4oOYs3XtFQSOdL48+W1wQkx96fyKaUpNyhkzsXS26WH5fT4I5VQVPfad6y6b9TF9XY/0eJSQkMChUzazduQv6Eo0WF0g8M+51mc/CQXxPN9QsyWTFUU9c+U9rSXJ7lP1Ac0flRPrHeRmlFDEbwZjcdPankudrhBYCk6s2ccKb+PR7cZmFUt7RVgRd8b6vGiU="
   file: "build/quicksort"
   skip_cleanup: true
